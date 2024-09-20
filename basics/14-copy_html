@@ -1,4 +1,4 @@
 #!/bin/bash
-rsync -au --ignore-existing --update *.html ../
+cp -u *.html ..
 
 
