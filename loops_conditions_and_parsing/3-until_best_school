@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#using untill loop to display best  school ten times
 i=1
 until ((i>10))
 do 
