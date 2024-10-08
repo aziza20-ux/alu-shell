@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#not empty
+name=school
+if [ -e $name ]; then
+echo "school file exits"
+else
+echo "school file doesn't exit"
+fi
+if [ ! -s $name ]; then
+echo "school file is not empty"
+else
+echo "school file is empty"
+fi
+if [ -f $name ]; then
+echo "school file is a regular file"
+else
+echo " "
+fi
