@@ -2,9 +2,9 @@
 #not empty
 name=school
 if [ -e $name ]; then
-echo "school file exits"
+echo "school file exist"
 else
-echo "school file doesn't exit"
+echo "school file doesn't exist"
 exit 1
 fi
 if [ ! -s $name ]; then
