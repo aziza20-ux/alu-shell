@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #cmd
-ps |cut d' ' f1 f2 | grep "bash"
+# shellcheck disable=SC2009
+pgrep -l bash
