@@ -7,10 +7,9 @@ echo $$ > /var/run/myscript.pid
 while ((1))
 do 
 echo "To infinity and beyond"
-((++i))
-sleep 2
 done
-quitting(){
+function quitting(){
 rm /var/run/myscript.pid
+exit
 }
 
