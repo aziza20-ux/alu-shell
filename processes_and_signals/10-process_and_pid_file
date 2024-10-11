@@ -2,7 +2,6 @@
 #goooo
 trap "I hate the kill command;quitting" SIGTERM
 trap "'Y U no love me?!'" SIGINT
-trap quitting SIGQUIT
 echo $$ > /var/run/myscript.pid
 while ((1))
 do 
