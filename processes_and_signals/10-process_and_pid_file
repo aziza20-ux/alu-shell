@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #goooo
 trap "I hate the kill command;quitting" SIGTERM
-trap "'Y U no love me?!'" SIGINT
+trap "Y U no love me?!;quitting" SIGINT
 echo $$ > /var/run/myscript.pid
 while ((1))
 do 
